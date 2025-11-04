@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block header %}
-  <!-- Blank header with no service name for the start page -->
+ 
   {{ govukHeader() }}
 {% endblock %}
 
@@ -15,6 +15,7 @@
 
 {% block content %}
 
+  <!-- Blank header with no service name for the start page -->
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
 
@@ -79,7 +80,7 @@
 
         {{ govukDetails({
           summaryText: "Help with this question",
-          text: "Lorem ipsum"
+          text: "Please check Postcode link"
         }) }}
 
         <button class="govuk-button" data-module="govuk-button">Continue</button>
